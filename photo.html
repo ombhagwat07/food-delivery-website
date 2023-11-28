@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Baba Ka Dhabha</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+        #gallery {
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        #gallery h2 {
+            text-align: center;
+        }
+
+        .photo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px; 
+        }
+
+        .photo li {
+            flex: 0 0 calc(33.33% - 10px); 
+        }
+
+        .photo img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="speedzo.png" type="image/png/gif">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="navigation">
+            <nav>
+                <ul class="navimg">
+                    <ul class="navbar">
+                        <li><a href="./index.html">Home</a></li>
+                       
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                        <li><a href="./photo.html">Photo Gallery</a></li>
+                        <li><a href="./review.html">Reviews</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div id="gallery">
+        <!-- Gallery Section -->
+        <section>
+            <h2>Photo Gallery</h2>
+
+            <!-- Image Grid (Replace image sources and alt text with your own) -->
+            <div class="photo">
+                <ol>
+                    <li><img src="./pexels-ella-olsson-1640770.jpg" alt="Image 1"></li>
+                    <li><img src="./pexels-ella-olsson-1640773.jpg" alt="Image 2"></li>
+                    <li><img src="./pexels-elle-hughes-1660030.jpg" alt="Image 3"></li>
+                    <li><img src="./pexels-jane-doan-1092730.jpg" alt="Image 4"></li>
+                    <li><img src="./pexels-sydney-troxell-718742.jpg" alt="Image 5"></li>
+                    <li><img src="./pexels-ella-olsson-1640770.jpg" alt="Image 6"></li>
+                    <li><img src="./pexels-ella-olsson-1640773.jpg" alt="Image 7"></li>
+                    <li><img src="./pexels-elle-hughes-1660030.jpg" alt="Image 8"></li>
+                    <li><img src="./pexels-jane-doan-1092730.jpg" alt="Image 9"></li>
+                </ol>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <h3>&copy; Baba ka Dabha | All Rights Reserved</h3>
+        <p><i id="insta" class="bi bi-instagram"></i><i id="twitter" class="bi bi-twitter"></i><i id="facebook"
+                class="bi bi-facebook"></i><i id="whatsapp" class="bi bi-whatsapp"></i></p>
+    </footer>
+</body>
+
+</html>
